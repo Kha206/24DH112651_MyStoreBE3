@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\LTW\\24DH112651_MyStoreBE3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C05C853-7F04-4669-A40F-209E5C6BB440}|24DH112651_Be2\\24DH112651_Be2.csproj|d:\\ltw\\24dh112651_mystorebe3\\24dh112651_be2\\scripts\\thanhngu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C05C853-7F04-4669-A40F-209E5C6BB440}|24DH112651_Be2\\24DH112651_Be2.csproj|solutionrelative:24dh112651_be2\\scripts\\thanhngu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "thanhngu.js",
+              "DocumentMoniker": "D:\\LTW\\24DH112651_MyStoreBE3\\24DH112651_Be2\\Scripts\\thanhngu.js",
+              "RelativeDocumentMoniker": "24DH112651_Be2\\Scripts\\thanhngu.js",
+              "ToolTip": "D:\\LTW\\24DH112651_MyStoreBE3\\24DH112651_Be2\\Scripts\\thanhngu.js",
+              "RelativeToolTip": "24DH112651_Be2\\Scripts\\thanhngu.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-19T08:56:41.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
