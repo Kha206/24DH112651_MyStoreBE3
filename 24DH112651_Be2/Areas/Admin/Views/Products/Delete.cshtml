@@ -5,13 +5,20 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h2 class="bg-success">XOA SAN PHAM</h2>
+<h2 class="bg-success">XÓA SẢN PHẨM</h2>
+<h4 class="alert-danger">Bạn thực sự muốn xóa sản phẩm này à?</h4>
 
-<h4 class="alert-danger">Ban thuc su muon san pham nay a?</h4>
+@* Hiển thị thông tin sản phẩm *@
 @Html.Partial("PVProductInfo", Model)
+
 <div class="form-group">
-<div class="col-md-ofset-3 col-md-9">
-    @Html.ActionLink("Sua", "Edit", new { id = Model.CategoryID }, new { @class = "btn btn-primary btn-primary" })
-    @Html.ActionLink("Quay lai danh sach", "Index", null, new { @class = "btn-primary btn-primary" })
+    <div class="col-md-offset-3 col-md-9">
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+
+        @* SỬA LỖI Ở ĐÂY: Dùng ProductID thay vì CategoryID *@
+        @Html.ActionLink("Sửa", "Edit", new { id = Model.ProductID }, new { @class = "btn btn-primary" }) |
+
+        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-default" })
+    </div>
 </div>
-</div>
+}
